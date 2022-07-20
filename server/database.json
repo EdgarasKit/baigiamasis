@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "username": "Edgaras",
+      "password": "$2b$10$wWuCWDVsgJ6kkWpdc6LZf.sjcewxynx.tjyRH026tUApJZxVi8t1m",
+      "id": 1
+    },
+    {
+      "username": "Tadas",
+      "password": "$2b$10$VxIIMOWTVLL6CktacyaJeOreOl1WRSb21cY3xjiVC1hzrlQyoFkXq",
+      "id": 2
+    },
+    {
+      "username": "asdqasdq",
+      "password": "$2b$10$56Om6Nnqft63QaFP8/pqBOvNeHXm/ZHEVAUgcGaTkPrT8zG1hUu3e",
+      "id": 3
+    }
+  ],
+  "questions": [
+    {
+      "user_id": 1,
+      "question": "Kaip sekasi?",
+      "id": 2
+    },
+    {
+      "user_id": 2,
+      "question": "asasgagag",
+      "id": 3
+    },
+    {
+      "user_id": 2,
+      "question": "Koks siandien oras?",
+      "id": 4
+    },
+    {
+      "user_id": 2,
+      "question": "Klausimėlis",
+      "id": 5
+    },
+    {
+      "user_id": 3,
+      "question": "Kokia spalva?",
+      "id": 7
+    }
+  ],
+  "answers": [
+    {
+      "user_id": 2,
+      "question_id": "2",
+      "answer": "2512\n6\n",
+      "id": 1
+    },
+    {
+      "user_id": 2,
+      "question_id": "1",
+      "answer": "\n+56\n\n",
+      "id": 2
+    },
+    {
+      "user_id": 3,
+      "question_id": "4",
+      "answer": "Gražu ir šilta, šiandien :)",
+      "id": 3
+    }
+  ]
+}
