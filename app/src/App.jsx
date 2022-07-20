@@ -19,7 +19,6 @@ function App() {
   const [answers, setAnswers] = useState([]);
   const [user, setUser] = useState({});
   const [users, setUsers] = useState();
-  //Visi hooks pabaiga
 
   //Autorizacijos efectas
   const navigate = useNavigate();
@@ -41,23 +40,22 @@ function App() {
         }
       });
   }, [navigate]);
-  //Autorizacijos efectas
 
-  //Questions GET pradžia
+  //Questions 
   const questionsData = () => {
     fetch("/questions")
       .then((res) => res.json())
       .then((data) => setQuestions(data));
   };
-  //Questions GET pabaiga
 
-  //Answers GET pradžia
+
+  //Answers GET 
   const answersData = () => {
     fetch("/answers")
       .then((res) => res.json())
       .then((data) => setAnswers(data));
   };
-  //Answers GET pabaiga
+ 
 
   const usersData = () => {
     fetch("/users")
